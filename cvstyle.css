@@ -1,0 +1,21 @@
+body{background-color: lightblue}
+.container{margin:auto; background-color: white; width:580px;height:850px;}
+aside{background-color:midnightblue; color:white;width:210px;height:850px;float: left;}
+.photo{width:210px;height:225px;}
+img{width:210px;height:155px;}
+#name{font-size:18px;text-align: center;font-family:serif;}
+#post{font-size:10px;text-align: center;}
+.contact{border-top:2px solid gold;width:210px;height:200px}
+h4{background-color:gold;text-align:center;}
+p{font-size:13px;font-family:Sans-serif}
+.language{width:210px;height:200px}
+.hobbies{width:210px;height:150px}
+article{background-color: white;color:black;width:575px;height:850px;}
+h3{background-color:midnightblue;color:gold; text-align:center;}
+.personalProfile{width: 575px;height:100px;}
+.education{width:575px;height:150px;}
+.workExperience{width:575px;height:375px;}
+.professionalSkills{width: 575px;height:150px;}
+table{font-family:Sans-serif;font-size:12px;}
+ul{font-family:Sans-serif;font-size:13px;list-style-position:inside;}
+.icon{width:30px; height:22px;}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FareedahTech | Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            aside{
+                width: 40%;
+                height:100%;
+                float: left;
+                margin-top: 70px;
+                margin-left:30px;
+                text-align: left;
+            }
+            article{
+                width:50% ;
+                height:100%;
+                float: left;
+                align-items: center;
+                margin-top: 70px;
+                margin-left: 40px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="menu">
+                  <div class="logo">
+                    <h1 style="font-size: 35px; color: white;">fAREEDAHtECH</h1>
+                  </div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="choose.html">Why Choose Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="img"></div>
+        <div class="center">
+            <aside>
+            <form>
+                <label>Name</label><br>
+                <input type="text" id="contact-name" onkeyup="validateName()"><br>
+                <span id="name-error"></span><br>
+
+                <label>Phone Number</label><br>
+                <input type="tel" id="contact-phone" onkeyup="validatePhone()"><br>
+                <span id="phone-error"></span><br>
+
+                <label>Email Address</label><br>
+                <input type="email" id="contact-email" onkeyup="validateEmail()"><br>
+                <span id="email-error"></span><br>
+
+                <label>Message</label><br>
+                <textarea cols="40" rows="8" placeholder="Type your message here" id="contact-message" onkeyup="validateMessage()"></textarea><br>
+                <span id="message-error"></span><br>
+
+                <button type="submit" onclick="return validateForm()">Send Message</button><br>
+                <span id="submit-error"></span>
+            </form>
+            </aside>
+            <article>  
+                <em><br>
+                <table>
+                    <tr>
+                        <th>Email</th>
+                        <td><img src="fbicon.png" style="width:50px; height:50px;"><br>@fareedah_tech</td>
+                    </tr>
+                    <tr>
+                    <td>fareedah_tech@gmail.com</td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td><img src="igicon.png" style="width:50px; height:50px;"><br>@fareedah_tech</td>
+                    </tr>
+                    <tr>
+                        <td>+234(0)8055049049</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td><img src="twticon.png" style="width:50px; height:50px;"><br>@fareedah_tech</td>
+                    </tr>
+                    <tr>
+                        <td>Plot 236, Ahmadu Bello Way, Airport Road,Abuja</td>
+                    </tr>
+                </table></em>
+            </article>
+
+        </div>
+        <footer>
+            Fareedah Balogun:&copy;2022
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
